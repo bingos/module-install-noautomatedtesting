@@ -9,7 +9,6 @@ license 'perl';
 perl_version '5.006';
 build_requires 'Test::More' => 0.47;
 build_requires 'Capture::Tiny' => 0.05;
-build_requires 'Env::Sanctify' => 1.02;
 requires 'Module::Install' => 0.85;
 eval "auto_set_repository";
 clean_files 'dist have_make';
